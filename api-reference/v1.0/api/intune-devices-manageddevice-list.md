@@ -54,6 +54,7 @@ Here is an example of the request.
 ``` http
 GET https://graph.microsoft.com/v1.0/users/{usersId}/managedDevices
 ```
+Add note here: The device record(s) returned by this Graph call may or may not contain the userId as the call URL already contains the userId or UPN. To get the urserId from UPN, make this GET call: https://graph.microsoft.com/v1.0/users/<userUPN>. 
 
 ### Response
 Here is an example of the response. Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
