@@ -26,6 +26,8 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|DeviceManagementConfiguration.Read.All, DeviceManagementConfiguration.ReadWrite.All, DeviceManagementManagedDevices.Read.All, DeviceManagementManagedDevices.ReadWrite.All|
 
+Please update the permissions for this API. Based on the feature team and source code, this API required DeviceManagementManagedDevices.PrivilegedOperations.All.
+
 ## HTTP Request
 <!-- {
   "blockType": "ignored"
